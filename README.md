@@ -3,19 +3,6 @@
 
 **Objective.** Analyze FoodHub order data to understand demand patterns by restaurant and cuisine, and to identify factors impacting customer ratings and delivery speed.
 
----
-
-## 📁 Project Structure
-```
-foodhub-project/
-├── data/                    # dataset(s)
-├── notebooks/               # analysis notebooks
-├── reports/figures/         # saved charts
-├── src/                     # optional helpers
-├── requirements.txt
-└── README.md
-```
-
 ## 📊 Dataset
 Columns:
 - `order_id`, `customer_id`, `restaurant_name`, `cuisine_type`
@@ -72,17 +59,3 @@ Quick stats:
 - Aggregations for demand and revenue
 - Distribution and group-wise comparisons
 - Simple correlations with ratings
-
-## ▶️ How to Run
-```bash
-# 1) Create an environment and install deps
-pip install -r requirements.txt
-
-# 2) Open the notebook
-jupyter notebook notebooks/FoodHub_Project.ipynb
-```
-
-> If the full dataset is large/private, keep only a **sample** in `data/` and describe how to fetch the rest.
-
-## 📜 License
-MIT
